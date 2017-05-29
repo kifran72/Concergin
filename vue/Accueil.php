@@ -11,6 +11,8 @@
     <!-- Bootstrap core CSS -->
     <link href="vue/app/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
+    <link rel="stylesheet" href="vue/app/css/Accueil.css">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -33,7 +35,7 @@
     <div class="container">
      
             <nav class="navbar navbar-inverse navbar-static-top" role="navigation" style="margin-bottom: 0px;">
-                <div class="container">
+
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
@@ -47,7 +49,7 @@
                     <div id="navbar" class="navbar-collapse collapse">
                        
                       <ul class="nav navbar-nav row">
-                             <li class="dropdown">
+                             <li class="dropdown col-md-4">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#">Action</a></li>
@@ -59,7 +61,7 @@
                                         <li><a href="#">One more separated link</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown">
+                                <li class="dropdown col-md-4">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#">Action</a></li>
@@ -71,7 +73,7 @@
                                         <li><a href="#">One more separated link</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown">
+                                <li class="dropdown col-md-4">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#">Action</a></li>
@@ -87,7 +89,6 @@
                                
                         </ul>
                     </div>
-                </div>
             </nav>
     </div>
 
