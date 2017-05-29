@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+    
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(91, 96, 102);
+    /*background: url("../img/Fond.jpg") no-repeat center center fixed;*/
+    
+}
+
+ul.nav li a {
+    font-size: 1.7em;
+}
+
+ul.nav {
+    text-align: center;
+}
+
+.container #logo-header{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px; 
+}
+
