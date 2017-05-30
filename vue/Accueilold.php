@@ -1,59 +1,45 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <!--BOOTSTRAP-->
-        <meta charset="UTF-8">
-        <title>Accueil</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/Accueil.css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    </head>
-    <body>
-        
-           
-                <a href="vue/Accueil.php"><img src="image/logo.jpg" alt="logo"></a>
-           
-            
-    <div class="barnav">
-        <nav class="navbar navbar-toggleable-md navbar-light" id="barnav">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Acceuil <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Nos servives</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Entreprise</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Particuliers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Découvrir</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CGV</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacter-nous</a>
-                    </li>
-                </ul>
-                
-            </div>
-        </nav>
-    </div>
-</body>
+<!--LOGO-->
+                            <svg class="navbar-brand">
+                                 <img src="vue/app/img/logo.svg" alt="logo" class="img-responsive">
+                            </svg>
+                            
+                            <!--Dropdown-->
 
-<!--BOOTSTRAP-->
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nos services <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Nos services </a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Qu'est ce qu'une conciergerie solidaire? </a></li>
+                                    <li><a href="#">Conciergerie d'entreprise</a></li>
+                                    <li><a href="#">Conciergerie de quartier</a></li>
 
-</html>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">La communauté <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Il nous font confiance</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Qui sommes nous! <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">L'équipe</a></li>
+                                    <li><a href="#">Nos partenaires</a></li>
+                                    <li><a href="#">Nos implantations</a></li>
+                                    <li><a href="#">Annimations</a></li>
+                                    <li><a href="#">Revue de presse</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mon espace <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Inscription</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Connexion</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">C.G.V.</a></li>
+                                </ul>

@@ -1,29 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
-
-body{
-    
+body {
     font-family: 'Lato', sans-serif;
-    background-color: rgb(255, 255, 255);
-    /*background: url("../img/Fond.jpg") no-repeat center center fixed;*/
-    
+    background: url("../img/Fond.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
 }
 
-ul.nav li a {
-    font-size: 1.7em;
-}
-
-ul.nav {
+.logo {
+    height: 35px;
+    width: 150px;
+    left: 0;
+    top: 0;
+    padding-bottom: 10px;
+    vertical-align: middle;
     text-align: center;
-    width: 100%;
+    margin: auto;
 }
 
-.dropdown-menu {
-    left: 1em;
-}
 
-.container #logo-header{
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 20px; 
-}
+/* use navbar-wrapper to wrap navigation bar, the purpose is to overlay navigation bar above slider */
 

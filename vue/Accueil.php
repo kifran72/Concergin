@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Bootstrap Slider Component Carousel/Slideshow/Gallery/Banner</title>
+    <title>Bootstrap Carousel Component Slider/Slideshow/Gallery/Banner</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vue/app/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="vue/app/css/Accueil.css">
+    <!-- Bootstrap core CSS -->
+    <link href="vue/app/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -23,73 +23,65 @@
 
 <body>
 
-    <div class="container">
-        <div id="logo-header">
-            <svg class="navbar-brand">
-                 <img src="vue/app/img/logo.svg" alt="logo" class="img-responsive">
-            </svg>
-        </div>
-    </div>
     <!-- NAVBAR
     ================================================== -->
+
     <div class="container">
-     
-            <nav class="navbar navbar-inverse navbar-static-top" role="navigation" style="margin-bottom: 0px;">
+        <nav class="navbar navbar-inverse navbar-static-top" role="navigation" style="margin-bottom: 0px;">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    <a class="navbar-brand" href="vue/Accueil.php">
+                        <img class="logo" src="vue/app/img/logo.png" alt="Logo">
+                    </a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nos services <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Nos services </a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Qu'est ce qu'une conciergerie solidaire? </a></li>
+                                <li><a href="#">Conciergerie d'entreprise</a></li>
+                                <li><a href="#">Conciergerie de quartier</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">La communauté <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Il nous font confiance</a></li>
 
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Qui sommes nous! <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">L'équipe</a></li>
+                                <li><a href="#">Nos partenaires</a></li>
+                                <li><a href="#">Nos implantations</a></li>
+                                <li><a href="#">Annimations</a></li>
+                                <li><a href="#">Revue de presse</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mon espace <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Inscription</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Connexion</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">C.G.V.</a></li>
+                            </ul>
+                </div>
+            </div>
+        </nav>
 
-                    </div>
-                    
-                    <div id="navbar" class="navbar-collapse collapse">
-                       
-                      <ul class="nav navbar-nav row">
-                             <li class="dropdown col-md-4">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li role="separator" class="divider"></li>
-                                        <li><a href="#">Separated link</a></li>
-                                        <li role="separator" class="divider"></li>
-                                        <li><a href="#">One more separated link</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown col-md-4">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li role="separator" class="divider"></li>
-                                        <li><a href="#">Separated link</a></li>
-                                        <li role="separator" class="divider"></li>
-                                        <li><a href="#">One more separated link</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown col-md-4">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li role="separator" class="divider"></li>
-                                        <li><a href="#">Separated link</a></li>
-                                        <li role="separator" class="divider"></li>
-                                        <li><a href="#">One more separated link</a></li>
-                                    </ul>
-                                </li>
-                                
-                               
-                        </ul>
-                    </div>
-            </nav>
     </div>
 
     <!-- Use a container to wrap the slider, the purpose is to enable slider to always fit width of the wrapper while window resize -->
@@ -100,22 +92,22 @@
         <div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto; width: 1140px; height: 442px; overflow: hidden;">
 
             <!-- Loading Screen -->
-            <div data-u="loading" style="position:absolute;top:0px;left:0px;background:url('../img/loading.gif') no-repeat 50% 50%; background-color: rgba(0, 0, 0, .7);"></div>
+            <div data-u="loading" style="position:absolute;top:0px;left:0px;background:url('vue/app/img/loading.gif') no-repeat 50% 50%; background-color: rgba(0, 0, 0, .7);"></div>
 
             <!-- Slides Container -->
             <div u="slides" style="position: absolute; left: 0px; top: 0px; width: 1140px; height: 442px;
             overflow: hidden;">
                 <div>
-                    <img u="image" src2="../img/home/01.jpg" />
+                    <img u="image" src2="vue/app/img/home/01.jpg" />
                 </div>
                 <div>
-                    <img u="image" src2="../img/home/02.jpg" />
+                    <img u="image" src2="vue/app/img/home/02.jpg" />
                 </div>
                 <div>
-                    <img u="image" src2="../img/home/03.jpg" />
+                    <img u="image" src2="vue/app/img/home/03.jpg" />
                 </div>
                 <div>
-                    <img u="image" src2="../img/home/04.jpg" />
+                    <img u="image" src2="vue/app/img/home/04.jpg" />
                 </div>
             </div>
 
@@ -142,7 +134,7 @@
                     /* size of bullet elment */
                     width: 16px;
                     height: 16px;
-                    background: url(../img/b05.png) no-repeat;
+                    background: url(vue/app/img/b05.png) no-repeat;
                     overflow: hidden;
                     cursor: pointer;
                 }
@@ -194,7 +186,7 @@
                     width: 37px;
                     height: 37px;
                     cursor: pointer;
-                    background: url(../img/a11.png) no-repeat;
+                    background: url(vue/app/img/a11.png) no-repeat;
                     overflow: hidden;
                 }
                 
@@ -234,7 +226,6 @@
         </div>
         <!-- Jssor Slider End -->
     </div>
-
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
@@ -246,7 +237,7 @@
         <div class="row featurette">
             <div class="col-md-7">
                 <h2 class="featurette-heading">This page runs <a href="http://getbootstrap.com" target="_blank" rel="nofollow">Bootstrap</a> with Jssor Slider.</h2>
-                <p class="lead">Use Jssor Slider as a compoment of Bootstrap is extremly easy. Given a slider you worked out, to integrate it with Bootstrap, you can just copy javascript and html code and paste it into your page. This page is a simple demo, please view source of this page or download <a href="https://www.jssor.com/download-bootstrap-carousel-slider-example.html">Bootstrap Carousel Slider Example</a>.</p>
+                <p class="lead">Use Jssor Slider as a compoment of Bootstrap is extremly easy. Given a carousel you worked out, to integrate it with Bootstrap, you can just copy javascript and html code and paste it into your page. This page is a simple demo, please view source of this page or download <a href="https://www.jssor.com/download-bootstrap-carousel-slider-example.html">Bootstrap Carousel Slider Example</a>.</p>
             </div>
             <div class="col-md-5">
                 <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
@@ -285,7 +276,7 @@
                 <h2 class="featurette-heading">HTML Code</h2>
                 <div class="lead" style="background-color:#f0f0f0; border: 1px dashed #000; white-space: nowrap;">
                     <pre style="margin:0px;">
-&lt;div class="container"&gt;
+&lt;div style="min-height: 50px;"&gt;
     &lt;!-- Jssor Slider Begin --&gt;
     &lt;div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto; width: 980px; height: 380px; overflow: hidden;"&gt;
         ...
@@ -324,10 +315,11 @@
     <script type="text/javascript" src="vue/app/bootstrap/js/jssor.slider.mini.js"></script>
     <script>
         jQuery(document).ready(function($) {
+
             var options = {
+                $FillMode: 2, //[Optional] The way to fill image in slide, 0 stretch, 1 contain (keep aspect ratio and put all inside slide), 2 cover (keep aspect ratio and cover whole slide), 4 actual size, 5 contain for large image, actual size for small image, default value is 0
                 $AutoPlay: 1, //[Optional] Auto play or not, to enable slideshow, this option must be set to greater than 0. Default value is 0. 0: no auto play, 1: continuously, 2: stop at last slide, 4: stop on click, 8: stop on user navigation (by arrow/bullet/thumbnail/drag/arrow key navigation)
-                $AutoPlaySteps: 1, //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
-                $Idle: 2000, //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $Idle: 4000, //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
                 $PauseOnHover: 1, //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
 
                 $ArrowKeyNavigation: true, //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
@@ -343,24 +335,23 @@
                 $PlayOrientation: 1, //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
                 $DragOrientation: 1, //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $Cols is greater than 1, or parking position is not 0)
 
-                $ArrowNavigatorOptions: { //[Optional] Options to specify and enable arrow navigator or not
-                    $Class: $JssorArrowNavigator$, //[Requried] Class to create arrow navigator instance
-                    $ChanceToShow: 2, //[Required] 0 Never, 1 Mouse Over, 2 Always
-                    $AutoCenter: 2, //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
-                    $Steps: 1, //[Optional] Steps to go for each navigation request, default value is 1
-                    $Scale: false //Scales bullets navigator or not while slider scale
-                },
-
                 $BulletNavigatorOptions: { //[Optional] Options to specify and enable navigator or not
                     $Class: $JssorBulletNavigator$, //[Required] Class to create navigator instance
                     $ChanceToShow: 2, //[Required] 0 Never, 1 Mouse Over, 2 Always
                     $AutoCenter: 1, //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
                     $Steps: 1, //[Optional] Steps to go for each navigation request, default value is 1
                     $Rows: 1, //[Optional] Specify lanes to arrange items, default value is 1
-                    $SpacingX: 12, //[Optional] Horizontal space between each item in pixel, default value is 0
-                    $SpacingY: 4, //[Optional] Vertical space between each item in pixel, default value is 0
+                    $SpacingX: 8, //[Optional] Horizontal space between each item in pixel, default value is 0
+                    $SpacingY: 8, //[Optional] Vertical space between each item in pixel, default value is 0
                     $Orientation: 1, //[Optional] The orientation of the navigator, 1 horizontal, 2 vertical, default value is 1
                     $Scale: false //Scales bullets navigator or not while slider scale
+                },
+
+                $ArrowNavigatorOptions: { //[Optional] Options to specify and enable arrow navigator or not
+                    $Class: $JssorArrowNavigator$, //[Requried] Class to create arrow navigator instance
+                    $ChanceToShow: 1, //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 2, //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1 //[Optional] Steps to go for each navigation request, default value is 1
                 }
             };
 
@@ -369,10 +360,10 @@
             //responsive code begin
             //you can remove responsive code if you don't want the slider scales while window resizing
             function ScaleSlider() {
-                var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
-                if (parentWidth) {
-                    jssor_slider1.$ScaleWidth(parentWidth - 30);
-                } else
+                var bodyWidth = document.body.clientWidth;
+                if (bodyWidth)
+                    jssor_slider1.$ScaleWidth(Math.min(bodyWidth, 1920));
+                else
                     window.setTimeout(ScaleSlider, 30);
             }
             ScaleSlider();
@@ -386,4 +377,4 @@
     </script>
 </body>
 
-</html>u
+</html>
