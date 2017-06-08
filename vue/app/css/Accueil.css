@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 body {
     font-family: 'Lato', sans-serif;
-    background-color: dimgray;
+    background-color: #F8F8FF;
     /* background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -24,7 +24,10 @@ body {
     margin-left: 5px;
     margin-top: -12px;
 }
-
+.featurette-divider{
+    border: solid 2px rgba(0, 0, 0, 0.6) !important;
+    
+}
 #commande-container {
     text-align: center;
 }
@@ -45,7 +48,7 @@ body {
 }
 
 .affix+.container-fluid {
-    padding-top: 0px;
+    padding-top: 70px;
 }
 
 
@@ -54,6 +57,7 @@ body {
 .navbar-wrapper>.container {
     padding-right: 0;
     padding-left: 0;
+    top: 0;
     width: inherit;
 }
 
@@ -80,8 +84,10 @@ body {
 }
 
 .logo-service {
-    height: 50px;
-    width: 50px;
+    display: inline;
+    text-align: center;
+    height: 100px;
+    width: 100px;
     border-radius: 150px;
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
