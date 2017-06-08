@@ -24,10 +24,11 @@ body {
     margin-left: 5px;
     margin-top: -12px;
 }
-.featurette-divider{
+
+.featurette-divider {
     border: solid 2px rgba(0, 0, 0, 0.6) !important;
-    
 }
+
 #commande-container {
     text-align: center;
 }
@@ -37,6 +38,7 @@ body {
     width: 150px;
     position: relative;
     vertical-align: middle;
+    margin: 0 auto;
 }
 
 
@@ -86,12 +88,16 @@ body {
 .logo-service {
     display: inline;
     text-align: center;
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     border-radius: 150px;
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
     box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+section {
+    display: inline-block;
 }
