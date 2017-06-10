@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 body {
     font-family: 'Lato', sans-serif;
-    background-color: #F8F8FF;
+    background-color: #ffffff;
+    
     /* background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 50%;*/
     font-size: 1.4em;
     width: 100%;
-    margin: 0%;
+    margin-left: 0;
+    margin-right: 0;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .logo {
@@ -39,6 +45,8 @@ body {
     position: relative;
     vertical-align: middle;
     margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 
@@ -50,7 +58,7 @@ body {
 }
 
 .affix+.container-fluid {
-    padding-top: 70px;
+    padding-top: 0px;
 }
 
 
@@ -60,7 +68,7 @@ body {
     padding-right: 0;
     padding-left: 0;
     top: 0;
-    width: inherit;
+    width: 100%;
 }
 
 .navbar-wrapper .navbar {
@@ -86,10 +94,11 @@ body {
 }
 
 .logo-service {
+    margin-top: 50px;
     display: inline;
     text-align: center;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     border-radius: 150px;
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
@@ -97,7 +106,10 @@ body {
     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
-
+.Confiance{
+    
+    margin: 0 auto;
+}
 section {
     display: inline-block;
 }

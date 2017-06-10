@@ -55,7 +55,7 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Nos prestataires-partenaires</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="#">Ils nous font confiance</a></li>
+                                    <li><a href="../La_Communauté/Confiance.html">Ils nous font confiance</a></li>
                                     <li role="separator" class="divider"></li>
                                     <li><a href="#">Ils vous racontent</a></li>
                                 </ul>
@@ -80,7 +80,7 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="../Decouvrir/Qui_somme_nous.html">Qui somme nous !</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="#">L'équipe</a></li>
+                                    <li><a href="../Decouvrir/L'équipe.html">L'équipe</a></li>
                                     <li role="separator" class="divider"></li>
                                     <li><a href="#">Ou nous trouver ?</a></li>
                                     <li role="separator" class="divider"></li>
@@ -92,7 +92,7 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Inscription</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="Connexion.php">Connexion</a></li>
+                                    <li><a href="Connexion.php?mes">Connexion</a></li>
                                 </ul>
                     </div>
                 </div>
@@ -114,9 +114,6 @@
                         break;
                     case "mdp-1" :
                         echo ' <h3> Erreur : Confirmation mot de passe </h3><br> ';
-                        break;
-                    case "role" :
-                        echo ' <h3> Erreur : Role non renseigné </h3><br> ';
                         break;
                     case "nom" :
                         echo ' <h3> Erreur : Nom non renseigné </h3><br> ';
@@ -166,7 +163,7 @@
 
                 <br>
                 <input type="submit" value="Confimer" class="btn btn-success">
-                <a href="../Page-acceuil-admin.php?mes=ann" class="btn btn-info">annuler</a></td>
+                <a href="../Acceuil-Employer.php?mes=ann" class="btn btn-info">annuler</a></td>
             </form>
             </div>
             </div>

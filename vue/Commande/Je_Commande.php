@@ -53,9 +53,9 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Nos prestataires et partenaires</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="#">Ils nous font confiance</a></li>
+                                    <li><a href="../La_Communauté/Confiance.html">Ils nous font confiance</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="#">Ils vous racontent</a></li>
+                                    <li><a href="../La_Communauté/Il_vous_raconte.html">Ils vous racontent</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
@@ -78,7 +78,7 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="../Decouvrir/Qui_somme_nous.html">Qui somme nous !</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="#">L'équipe</a></li>
+                                    <li><a href="../Decouvrir/L'équipe.html">L'équipe</a></li>
                                     <li role="separator" class="divider"></li>
                                     <li><a href="#">Ou nous trouver ?</a></li>
                                     <li role="separator" class="divider"></li>

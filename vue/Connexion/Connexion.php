@@ -53,9 +53,9 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Nos prestataires et partenaires</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="#">Ils nous font confiance</a></li>
+                                    <li><a href="../La_Communauté/Confiance.html">Ils nous font confiance</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="#">Ils vous racontent</a></li>
+                                    <li><a href="../La_Communauté/Il_vous_raconte.html">Ils vous racontent</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
@@ -65,7 +65,7 @@
                                     <li role="separator" class="divider"></li>
                                     <li><a href="../Nos_offres/Offre-Entreprise.html">Conciergerie d'entreprise</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="vue/Nos_offres/Offre-Particulier.html">Conciergerie de quartier</a></li>
+                                    <li><a href="../Nos_offres/Offre-Particulier.html">Conciergerie de quartier</a></li>
 
                                 </ul>
                             </li>
@@ -78,7 +78,7 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="../Decouvrir/Qui_somme_nous.html">Qui somme nous !</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="#">L'équipe</a></li>
+                                    <li><a href="../Decouvrir/L'équipe.html">L'équipe</a></li>
                                     <li role="separator" class="divider"></li>
                                     <li><a href="#">Ou nous trouver ?</a></li>
                                     <li role="separator" class="divider"></li>
@@ -88,7 +88,7 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mon espace<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="Inscription.php">Inscription</a></li>
+                                    <li><a href="Inscription.php?er">Inscription</a></li>
                                     <li role="separator" class="divider"></li>
                                     <li><a href="#">Connexion</a></li>
                                 </ul>
@@ -106,7 +106,7 @@
         
         <?php if($_GET["mes"]=="inc") {echo "utilisateur ou mot de passe incorect";} ?>
         <div class="container">
-            <form action="Verification_Connexion.php" method="post">
+            <form action="../../Controler/Verif_connexion.php" method="post">
 
                 <h1>Connexion</h1><br>
 

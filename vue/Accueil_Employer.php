@@ -179,13 +179,13 @@
         <!-- Jssor Slider Begin -->
 
         <!-- ================================================== -->
-        <div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto; width: 500px; height: 600px; overflow: hidden;">
+        <div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto; width: 1000px; height: 1100px; overflow: hidden;">
 
             <!-- Loading Screen -->
             <div data-u="loading" style="position:absolute;top:0px;left:0px;background:url('../img/loading.gif') no-repeat 50% 50%; background-color: rgba(0, 0, 0, .7);"></div>
 
             <!-- Slides Container -->
-            <div u="slides" style="position: absolute; left: 0px; top: 0px; width: 500px; height: 600px;
+            <div u="slides" style="position: absolute; left: 0px; top: 0px; width: 1000px; height: 1100px;
             overflow: hidden;">
                 <div>
                     <img u="image" src2="vue/app/img/home/01.png" />
