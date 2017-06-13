@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="utf-8">
@@ -38,14 +38,14 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.php">
+                        <a class="navbar-brand" href="../index.php">
                             <img class="logo" src="app/img/logo.png" alt="Logo">
                         </a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
                             <li>
-                                <a href="Commande/Je_Commande.php">Je commande</a>
+                                <a href="Clients/Commande/Je_Commande.php">Je commande</a>
 
                             </li>
                             <li class="dropdown">
@@ -53,9 +53,9 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Nos prestataires-partenaires</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="La_Communauté/Confiance.html">Ils nous font confiance</a></li>
+                                    <li><a href="Clients/La_Communauté/Confiance.html">Ils nous font confiance</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="La_Communauté/Il_vous_raconte.html">Ils vous racontent</a></li>
+                                    <li><a href="Clients/La_Communauté/Il_vous_raconte.html">Ils vous racontent</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
@@ -63,9 +63,9 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Conciergerie volante</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="Nos_offres/Offre-Entreprise.html">Conciergerie d'entreprise</a></li>
+                                    <li><a href="Clients/Nos_offres/Offre-Entreprise.html">Conciergerie d'entreprise</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="Nos_offres/Offre-Particulier.html">Conciergerie de quartier</a></li>
+                                    <li><a href="Clients/Nos_offres/Offre-Particulier.html">Conciergerie de quartier</a></li>
 
                                 </ul>
                             </li>
@@ -76,9 +76,9 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Découvrir<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="Decouvrir/Qui_somme_nous.html">Qui sommes nous !</a></li>
+                                    <li><a href="Clients/Decouvrir/Qui_somme_nous.html">Qui sommes nous !</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="Decouvrir/L'équipe.html">L'équipe</a></li>
+                                    <li><a href="Clients/Decouvrir/L'équipe.html">L'équipe</a></li>
                                     <li role="separator" class="divider"></li>
                                     <li><a href="#">Ou nous trouver ?</a></li>
                                     <li role="separator" class="divider"></li>
@@ -108,7 +108,7 @@
 
        <div class="container">
             <div class="row" id="commande-container">
-            <a href="vue/Commande/Je_Commande.php">
+            <a href="Clients/Commande/Je_Commande.php">
                 <img class="img-responsive" id="commande-img" src="app/img/Fond.jpg" alt="Je commande">
                 <a/>
         </div>

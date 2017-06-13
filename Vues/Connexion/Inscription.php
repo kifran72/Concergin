@@ -1,11 +1,13 @@
-<!DOCTYPE html>
+
+
+
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Accueil</title>
+    <title>Inscription</title>
 
 
 
@@ -32,7 +34,7 @@
             <nav class="navbar navbar-inverse navbar-wrapper navbar-static-top" data-spy="affix" data-offset-top="1" role="navigation">
                 <div class="container">
                     <div class="navbar-header">
-                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -45,17 +47,17 @@
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
                             <li>
-                                <a href="../Commande/Je_Commande.php">Je commande</a>
+                                <a href="../Clients/Commande/Je_Commande.php">Je commande</a>
 
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">La communauté<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Nos prestataires et partenaires</a></li>
+                                    <li><a href="#">Nos prestataires-partenaires</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="../La_Communauté/Confiance.html">Ils nous font confiance</a></li>
+                                    <li><a href="../Clients/La_Communauté/Confiance.html">Ils nous font confiance</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="../La_Communauté/Il_vous_raconte.html">Ils vous racontent</a></li>
+                                    <li><a href="#">Ils vous racontent</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
@@ -63,9 +65,9 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Conciergerie volante</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="#">Conciergerie d'entreprise</a></li>
+                                    <li><a href="../Clients/Nos_offres/Offre-Entreprise.html">Conciergerie d'entreprise</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="Offre-Particulier.html">Conciergerie de quartier</a></li>
+                                    <li><a href="../Clients/Nos_offres/Offre-Particulier.html">Conciergerie de quartier</a></li>
 
                                 </ul>
                             </li>
@@ -76,9 +78,9 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Découvrir<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="../Decouvrir/Qui_somme_nous.html">Qui somme nous !</a></li>
+                                    <li><a href="../Clients/Decouvrir/Qui_somme_nous.html">Qui somme nous !</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="../Decouvrir/L'équipe.html">L'équipe</a></li>
+                                    <li><a href="../Clients/Decouvrir/L'équipe.html">L'équipe</a></li>
                                     <li role="separator" class="divider"></li>
                                     <li><a href="#">Ou nous trouver ?</a></li>
                                     <li role="separator" class="divider"></li>
@@ -90,7 +92,7 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Inscription</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="#">Connexion</a></li>
+                                    <li><a href="Connexion.php?mes">Connexion</a></li>
                                 </ul>
                     </div>
                 </div>
@@ -99,34 +101,82 @@
         </div>
     </div>
 
+<div class="container-fluid">
+        <div class="container">
+        <div class="row">
+            <form action="Page-Ajout-ut.php" method="post" class="col-xs-12 col-md-4 col-md-offset-4">
+                <h1>Nouvel Utilisateur</h1>
+                <FONT color="red">
+                    <?php
+                switch ($_GET["er"]) {
+                    case "mdp-0" :
+                        echo ' <h3> Erreur : mot de passe non renseigné </h3><br> ';
+                        break;
+                    case "mdp-1" :
+                        echo ' <h3> Erreur : Confirmation mot de passe </h3><br> ';
+                        break;
+                    case "nom" :
+                        echo ' <h3> Erreur : Nom non renseigné </h3><br> ';
+                        break;
+                    case "prenom" :
+                        echo ' <h3> Erreur : Prenom non renseigné </h3><br> ';
+                        break;
+                    case "mail" :
+                        echo ' <h3> Erreur : Email non renseigné </h3><br> ';
+                        break;
+                    default :
+                        break;
+                }
+                ?>
+                </FONT>
+                <div class="form-group">
+                    <label for="Nom" class="control-label">Nom</label>
 
-    <div class="container" style="margin-bottom: 30px;">
-        <img src="../app/img/OffreEntreprises.png" alt="RH">
-        <h1>Notre fonctionnement</h1>
-        <p>1/ Une entreprise décide d’ouvrir une conciergerie sur son lieu d’implantation pour ses salariés mais également pour ses besoins.</p>
-        <p>2/ Les consommateurs peuvent passer commande sur l’interface web et/ou par téléphone, de façon très simple en indiquant les prestations ou produits choisis.</p>
-        <p>3/ La conciergerie centralise, traite les commandes et les livre en entreprises. Selon le mode d’intervention choisi par le client, la durée de présence varie de 5 minutes à 35 heures par semaine.</p>
-        <p>4/ La conciergerie propose aux salariés un panel de prestataires et des producteurs locaux.</p>
-        <p>5/ Toutes les semaines, le responsable de la conciergerie propose une sélection d’offres de services.</p>
-        <h2>Vos Avantages</h2>
-        <p>La mise en place d’une conciergerie d’entreprise favorise votre politique de Ressources Humaines et de Responsabilité Sociétale des Entreprises :</p>
-        <p>• Motivation du salarié</p>
-        <p>• Amélioration du cadre de vie</p>
-        <p>• Réduction de l’absentéisme</p>
-        <p>• Amélioration de la productivité</p>
-        <p>• Meilleure image</p>
-        <p>• Fidélisation de vos salariés</p>
-        <p>• Renforcement de l’attractivité auprès de collaborateurs potentiels</p>
-        <p>• Avantage fiscal (crédit d’impôt)</p>
-        <p>• Création d’emplois.</p>
-        <h2>Votre implication</h2>
-        <img src="../app/img/OffreEntreprises2.png" alt="Rh">
-    </div>
+                    <input type="text" name="Nom" id="Nom" class="form-control">
+
+                </div>
+                <div class="form-group">
+                    <label for="Prenom" class="control-label">Prenom</label>
+
+                    <input type="text" name="Prenom" id="Prenom" class="form-control">
+
+                </div>
+                <div class="form-group">
+                    <label for="Mail" class="control-label">Email</label>
+
+                    <input type="text" name="Mail" id="Mail" class="form-control">
+
+                </div>
+                <div class="form-group">
+                    <label for="MDP" class="control-label">Mot de passe</label>
+
+                    <input type="password" name="MDP" id="MDP" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="MDP" class="control-label">Confirmer Mot de passe</label>
+
+                    <input type="password" name="MDP-conf" id="MDP-conf" class="form-control">
+
+                </div>
+               
+
+                <br>
+                <input type="submit" value="Confimer" class="btn btn-success">
+                <a href="../Acceuil-Employer.php?mes=ann" class="btn btn-info">annuler</a></td>
+            </form>
+            </div>
+            </div>
+        </div>
+<br><br>
+    <!-- /END THE FEATURETTES -->
+    <!-- FOOTER -->
+
     <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>&copy; Conciergin 2017 &middot; <a href="#">C.G.V.</a> &middot; </p>
     </footer>
-
+    <!-- /.container -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

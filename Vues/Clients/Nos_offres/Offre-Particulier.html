@@ -11,8 +11,8 @@
 
     <!-- Bootstrap core CSS -->
 
-    <link href="../app/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="../app/css/Accueil.css">
+    <link href="../../app/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../app/css/Accueil.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -29,23 +29,23 @@
 
     <div class="navbar-wrapper">
         <div class="container">
-            <nav class="navbar navbar-inverse navbar-wrapper navbar-static-top" data-spy="affix" data-offset-top="1" role="navigation">
+            <nav class="navbar navbar-inverse navbar-wrapper navbar-static-top" data-spy="affix" data-offset-top="1" role="navigation" >
                 <div class="container">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="../../index.php">
-                            <img class="logo" src="../app/img/logo.png" alt="Logo">
+                        <a class="navbar-brand" href="../../../index.php">
+                            <img class="logo" src="../../app/img/logo.png" alt="Logo">
                         </a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
                             <li>
-                                <a href="#">Je commande </a>
+                                <a href="../Commande/Je_Commande.php">Je commande</a>
 
                             </li>
                             <li class="dropdown">
@@ -63,10 +63,9 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Conciergerie volante</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="../Nos_offres/Offre-Entreprise.html">Conciergerie d'entreprise</a></li>
+                                    <li><a href="Offre-Entreprise.html">Conciergerie d'entreprise</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="../Nos_offres/Offre-Particulier.html">Conciergerie de quartier</a></li>
-
+                                    <li><a href="#">Conciergerie de quartier</a></li>
                                 </ul>
                             </li>
                             <li>
@@ -88,9 +87,9 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mon espace<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="../Connexion/Inscription.php">Inscription</a></li>
+                                    <li><a href="../../Connexion/Inscription.php?er">Inscription</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="../Connexion/Connexion.php">Connexion</a></li>
+                                    <li><a href="../../Connexion/Connexion.php?mes">Connexion</a></li>
                                 </ul>
                     </div>
                 </div>
@@ -99,35 +98,38 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="form-group">
-            <h1>Passez votre commande</h1>
-            <br><br><br><br><br><br>
-            <label for="exampleTextarea">Décrivez précisément votre demande: </label>
-            <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-        </div>
-        
-        <button class="login-submit" onclick="location.href = '#';">Valider</button>
-    </div>
-    <br><br><br><br><br><br><br>
-
-    <!-- /END THE FEATURETTES -->
-    <!-- FOOTER -->
+<div class="container" style="margin-bottom: 30px;">
+    <h1>En individuel</h1>
+    <img src="../../app/img/OffreParticulier1.png" alt="pl">
+    <img src="../../app/img/OffreParticulier2.png" alt="pL">
+    <h2>Comment ça marche ?</h2>
+    <p>1/ Je m’abonne via mon entreprise à la conciergerie.</p>
+    <p>2/ Je choisis mes services :</p>
+    <p>• vestimentaire</p>
+    <p>• alimentation</p>
+    <p>• bien-être & loisirs</p>
+    <p>• véhicule</p>
+    <p>• documents administratifs</p>
+    <p>3/ Je fais ma demande en ligne, par téléphone, par mail ou encore à mon point conciergerie.</p>
+    <p>4/ Je reçois ma commande sur mon lieu de travail ou encore à un point conciergerie.</p>
+    <p>5/ Je profite de ma journée.</p>
+</div>
 
     <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>&copy; Conciergin 2017 &middot; <a href="#">C.G.V.</a> &middot; </p>
     </footer>
+   
     <!-- /.container -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../app/bootstrap/js/jquery-1.9.1.min.js"></script>
-    <script src="../app/bootstrap/js/bootstrap.min.js"></script>
-    <script src="../app/bootstrap/js/docs.min.js"></script>
+    <script src="../../app/bootstrap/js/jquery-1.9.1.min.js"></script>
+    <script src="../../app/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../app/bootstrap/js/docs.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../app/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../../app/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
 
 
 </body>

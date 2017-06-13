@@ -1,9 +1,6 @@
 <?php
-session_start();
 
-include_once "../Controler/Config.php";
-
-namespace gestion;
+include_once "dbconnect.php";
 
 
 class Connexion
@@ -23,10 +20,15 @@ class Connexion
 	public function VerifConnection($user, $pass)
 	{
 		getBDD();
+
 		$req = $db->prepare("SELECT Prenom_Personne, Nom_Personne, Role FROM Utilisateur WHERE ID_Personne=:id and Password_Personne=:mdp");
+
 		$req->bindParam(":id", $user);
+
 		$req->execute();
-		$resultat = $req->fetchAll();		
+
+		$resultat = $req->fetchAll();
+
 		$db=null;
 
 		return $resultat;
@@ -36,6 +38,7 @@ class Connexion
 	public function ChoixRole($resultat)
 	{
 			getBDD();
+
 		    $req = $db->prepare("SELECT Prenom_Personne, Nom_Personne, Role FROM Utilisateur WHERE MAIL_Personne=:mail and Password_Personne=:mdp");
 
 		    $req->bindParam(":mail", $user);

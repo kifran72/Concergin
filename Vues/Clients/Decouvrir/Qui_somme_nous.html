@@ -1,20 +1,18 @@
-
-
-
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Inscription</title>
+    <title>Accueil</title>
 
 
 
     <!-- Bootstrap core CSS -->
 
-    <link href="../app/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="../app/css/Accueil.css">
+    <link href="../../app/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../app/css/Accueil.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -40,24 +38,24 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="../../index.php">
-                            <img class="logo" src="../app/img/logo.png" alt="Logo">
+                        <a class="navbar-brand" href="../../../index.php">
+                            <img class="logo" src="../../app/img/logo.png" alt="Logo">
                         </a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
                             <li>
-                                <a href="#">Je commande</a>
+                                <a href="../Commande/Je_Commande.php">Je commande</a>
 
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">La communauté<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Nos prestataires-partenaires</a></li>
+                                    <li><a href="#">Nos prestataires et partenaires</a></li>
                                     <li role="separator" class="divider"></li>
                                     <li><a href="../La_Communauté/Confiance.html">Ils nous font confiance</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="#">Ils vous racontent</a></li>
+                                    <li><a href="../La_Communauté/Il_vous_raconte.html">Ils vous racontent</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
@@ -71,16 +69,16 @@
 
                                 </ul>
                             </li>
-                            <li>
+                             <li>
                                 <a href="#">Nos services</a>
 
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Découvrir<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="../Decouvrir/Qui_somme_nous.html">Qui somme nous !</a></li>
+                                    <li><a href="#">Qui somme nous !</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="../Decouvrir/L'équipe.html">L'équipe</a></li>
+                                    <li><a href="L'équipe.html">L'équipe</a></li>
                                     <li role="separator" class="divider"></li>
                                     <li><a href="#">Ou nous trouver ?</a></li>
                                     <li role="separator" class="divider"></li>
@@ -90,9 +88,9 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mon espace<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Inscription</a></li>
+                                    <li><a href="../../Connexion/Inscription.php?er">Inscription</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="Connexion.php?mes">Connexion</a></li>
+                                    <li><a href="../../Connexion/Connexion.php?mes">Connexion</a></li>
                                 </ul>
                     </div>
                 </div>
@@ -101,75 +99,32 @@
         </div>
     </div>
 
-<div class="container-fluid">
-        <div class="container">
-        <div class="row">
-            <form action="Page-Ajout-ut.php" method="post" class="col-xs-12 col-md-4 col-md-offset-4">
-                <h1>Nouvel Utilisateur</h1>
-                <FONT color="red">
-                    <?php
-                switch ($_GET["er"]) {
-                    case "mdp-0" :
-                        echo ' <h3> Erreur : mot de passe non renseigné </h3><br> ';
-                        break;
-                    case "mdp-1" :
-                        echo ' <h3> Erreur : Confirmation mot de passe </h3><br> ';
-                        break;
-                    case "nom" :
-                        echo ' <h3> Erreur : Nom non renseigné </h3><br> ';
-                        break;
-                    case "prenom" :
-                        echo ' <h3> Erreur : Prenom non renseigné </h3><br> ';
-                        break;
-                    case "mail" :
-                        echo ' <h3> Erreur : Email non renseigné </h3><br> ';
-                        break;
-                    default :
-                        break;
-                }
-                ?>
-                </FONT>
-                <div class="form-group">
-                    <label for="Nom" class="control-label">Nom</label>
-
-                    <input type="text" name="Nom" id="Nom" class="form-control">
-
-                </div>
-                <div class="form-group">
-                    <label for="Prenom" class="control-label">Prenom</label>
-
-                    <input type="text" name="Prenom" id="Prenom" class="form-control">
-
-                </div>
-                <div class="form-group">
-                    <label for="Mail" class="control-label">Email</label>
-
-                    <input type="text" name="Mail" id="Mail" class="form-control">
-
-                </div>
-                <div class="form-group">
-                    <label for="MDP" class="control-label">Mot de passe</label>
-
-                    <input type="password" name="MDP" id="MDP" class="form-control">
-                </div>
-
-                <div class="form-group">
-                    <label for="MDP" class="control-label">Confirmer Mot de passe</label>
-
-                    <input type="password" name="MDP-conf" id="MDP-conf" class="form-control">
-
-                </div>
-               
-
-                <br>
-                <input type="submit" value="Confimer" class="btn btn-success">
-                <a href="../Acceuil-Employer.php?mes=ann" class="btn btn-info">annuler</a></td>
-            </form>
-            </div>
-            </div>
-        </div>
+<div class="container">
+    <h1>Qui sommes-nous !</h1>
+    <br>
+    <img src="../../app/img/qui_somme_nous1.png" alt="1">
+    <br><br>    
+    <p>Basée à Fontainebleau, Coniergin est une entreprise de service de proximité qui offre aux salariés des entreprises et aux usagers de la gare de Fontainebleau & Avon l’occasion de résoudre les tracasseries du quotidien, et les demandes relevant de la sphère privée. L’essentiel de notre prestation réside dans un service alliant rapidité, proximité et responsabilité sociale.
+Le modèle d’organisation d’Easyday est un «circuit court» de distribution, profitant à la fois aux salariés de l’arrondissement de Fontainebleau, aux prestataires et services locaux partageant les mêmes valeurs éthiques et citoyennes qu’Easyday.</p>
+<br><br><br>
+<img src="../../app/img/qui_somme_nous2.png" alt="2">
 <br><br>
-    <!-- /END THE FEATURETTES -->
+<ul>
+    <li>Ancrer notre entreprise sur le territoire,</li>
+    <li>Faire appel à des prestataires locaux et de proximité,</li>
+    <li>Valoriser les produits locaux et les circuits-courts,</li>
+    <li>Créer des emplois sur notre territoire,</li>
+    <li>Mettre l’Homme au coeur de l’économie,</li>
+    <li>Tendre vers le respect de l’Homme et de l’environnement.</li>
+</ul>
+<p>La conciergerie Easyday est un service de proximité qui favorise la relation entre les entreprises et les consommateurs locaux.</p>
+<p>1/ Une entreprise décide d’ouvrir une conciergerie sur son lieu d’implantation pour ses salariés mais également pour ses besoins.</p>
+<p>2/ Les consommateurs peuvent passer commande sur l’interface web et/ou par téléphone, de façon très simple en indiquant les prestations ou produits choisis.</p>
+<p>3/ La conciergerie centralise, traite les commandes et les livre en entreprises. Selon le mode d’intervention choisi par le client, la durée de présence varie de 5 minutes à 35 heures par semaine.</p>
+<p>4/ La conciergerie propose aux salariés un panel de prestataires et des producteurs locaux.</p>
+<p>5/ Toutes les semaines, le responsable de la conciergerie propose une sélection d’offres de services.</p>
+<br><br><br>
+</div>
     <!-- FOOTER -->
 
     <footer>
@@ -181,11 +136,11 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../app/bootstrap/js/jquery-1.9.1.min.js"></script>
-    <script src="../app/bootstrap/js/bootstrap.min.js"></script>
-    <script src="../app/bootstrap/js/docs.min.js"></script>
+    <script src="../../app/bootstrap/js/jquery-1.9.1.min.js"></script>
+    <script src="../../app/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../app/bootstrap/js/docs.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../app/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../../app/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
 
 
 </body>

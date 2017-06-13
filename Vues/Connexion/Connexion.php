@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -45,17 +46,17 @@
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
                             <li>
-                                <a href="../Commande/Je_Commande.php">Je commande</a>
+                                <a href="../Clients/Commande/Je_Commande.php">Je commande</a>
 
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">La communauté<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Nos prestataires-partenaires</a></li>
+                                    <li><a href="#">Nos prestataires et partenaires</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="Confiance.html">Ils nous font confiance</a></li>
+                                    <li><a href="../Clients/La_Communauté/Confiance.html">Ils nous font confiance</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="#">Ils vous racontent</a></li>
+                                    <li><a href="../Clients/La_Communauté/Il_vous_raconte.html">Ils vous racontent</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
@@ -63,9 +64,9 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Conciergerie volante</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="../Nos_offres/Offre-Entreprise.html">Conciergerie d'entreprise</a></li>
+                                    <li><a href="../Clients/Nos_offres/Offre-Entreprise.html">Conciergerie d'entreprise</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="../Nos_offres/Offre-Particulier.html">Conciergerie de quartier</a></li>
+                                    <li><a href="../Clients/Nos_offres/Offre-Particulier.html">Conciergerie de quartier</a></li>
 
                                 </ul>
                             </li>
@@ -76,9 +77,9 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Découvrir<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="../Decouvrir/Qui_somme_nous.html">Qui sommes nous !</a></li>
+                                    <li><a href="../Clients/Decouvrir/Qui_somme_nous.html">Qui somme nous !</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="../Decouvrir/L'équipe.html">L'équipe</a></li>
+                                    <li><a href="../Clients/Decouvrir/L'équipe.html">L'équipe</a></li>
                                     <li role="separator" class="divider"></li>
                                     <li><a href="#">Ou nous trouver ?</a></li>
                                     <li role="separator" class="divider"></li>
@@ -88,9 +89,9 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mon espace<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="../Connexion/Inscription.php">Inscription</a></li>
+                                    <li><a href="Inscription.php?er">Inscription</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="../Connexion/Connexion.php">Connexion</a></li>
+                                    <li><a href="#">Connexion</a></li>
                                 </ul>
                     </div>
                 </div>
@@ -99,17 +100,25 @@
         </div>
     </div>
 
-<div class="container">
- 
- 
-  <h1>Il vous raconte</h1>
-  <br><br><br><br>    
-  
-   <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F1632916583606010%2Fvideos%2F1850962765134723%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-</div>
- <br><br><br><br>
 
 
+  <div class="container">
+      <div class="login">
+        
+        <?php if($_GET["mes"]=="inc") {echo "utilisateur ou mot de passe incorect";} ?>
+        <div class="container">
+            <form action="../../Controleurs/Verif_connexion.php" method="post">
+
+                <h1>Connexion</h1><br>
+
+                <input type="text" name="user" placeholder="Nom d'utilisateur">
+                <input type="password" name="pass" placeholder="Mot de passe">
+                <button class="login-submit" onclick="location.href = '../Accueil.php?mes=bvn';">Valider</button>
+
+        </div>
+    </div>
+  </div>
+   <br><br>
     <!-- /END THE FEATURETTES -->
     <!-- FOOTER -->
 
@@ -128,7 +137,7 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../app/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
 
-   
+
 </body>
 
 </html>

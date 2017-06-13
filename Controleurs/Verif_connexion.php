@@ -1,6 +1,6 @@
 <?php
 
-include_once 'Config.php';
+include_once '../Modeles/dbconnect.php';
 
 session_start();
 
@@ -32,7 +32,7 @@ if (count($resultat) == 0) {
 $db=null;
 
 if (count($resultat) == 0) {
-    header("location: ../vue/Connexion/Connexion.php?mes=inc");
+    header("location: ../Vues/Connexion/Connexion.php?mes=inc");
 } else {
     $_SESSION["Nom"] = $resultat[0]["Nom_Personne"];
     $_SESSION["Prenom"] = $resultat[0]["Prenom_Personne"];
@@ -40,9 +40,9 @@ if (count($resultat) == 0) {
     $_SESSION["Mail"] = $resultat[0]["MAIL_Personne"];
 
     if ($resultat[0]["Role"] == 1) {
-        header("location: ../vue/Accueil.php?mes=bvn");
+        header("location: ../Vues/Accueil.php?mes=bvn");
     } else {
-        header("location: ../vue/Accueil_Employer.php?mes=bvn");
+        header("location: ../Vues/Accueil_Employer.php?mes=bvn");
     }
 }
 
