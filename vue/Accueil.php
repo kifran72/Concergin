@@ -11,8 +11,8 @@
 
     <!-- Bootstrap core CSS -->
 
-    <link href="vue/app/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="vue/app/css/Accueil.css">
+    <link href="app/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="app/css/Accueil.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -39,13 +39,13 @@
                             <span class="icon-bar"></span>
                         </button>
                         <a class="navbar-brand" href="index.php">
-                            <img class="logo" src="vue/app/img/logo.png" alt="Logo">
+                            <img class="logo" src="app/img/logo.png" alt="Logo">
                         </a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
                             <li>
-                                <a href="vue/Commande/Je_Commande.php">Je commande</a>
+                                <a href="Commande/Je_Commande.php">Je commande</a>
 
                             </li>
                             <li class="dropdown">
@@ -53,9 +53,9 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Nos prestataires-partenaires</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="vue/La_Communauté/Confiance.html">Ils nous font confiance</a></li>
+                                    <li><a href="La_Communauté/Confiance.html">Ils nous font confiance</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="vue/La_Communauté/Il_vous_raconte.html">Ils vous racontent</a></li>
+                                    <li><a href="La_Communauté/Il_vous_raconte.html">Ils vous racontent</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
@@ -63,9 +63,9 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Conciergerie volante</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="vue/Nos_offres/Offre-Entreprise.html">Conciergerie d'entreprise</a></li>
+                                    <li><a href="Nos_offres/Offre-Entreprise.html">Conciergerie d'entreprise</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="vue/Nos_offres/Offre-Particulier.html">Conciergerie de quartier</a></li>
+                                    <li><a href="Nos_offres/Offre-Particulier.html">Conciergerie de quartier</a></li>
 
                                 </ul>
                             </li>
@@ -76,9 +76,9 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Découvrir<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="vue/Decouvrir/Qui_somme_nous.html">Qui sommes nous !</a></li>
+                                    <li><a href="Decouvrir/Qui_somme_nous.html">Qui sommes nous !</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="vue/Decouvrir/L'équipe.html">L'équipe</a></li>
+                                    <li><a href="Decouvrir/L'équipe.html">L'équipe</a></li>
                                     <li role="separator" class="divider"></li>
                                     <li><a href="#">Ou nous trouver ?</a></li>
                                     <li role="separator" class="divider"></li>
@@ -88,9 +88,10 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mon espace<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="vue/Connexion/Inscription.php?er">Inscription</a></li>
+                                    <li><a href="Connexion/Inscription.php?er">Inscription</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="vue/Connexion/Connexion.php?mes">Connexion</a></li>
+                                    <li><a href="Connexion/Connexion.php?mes">Connexion</a></li>
+                                    
                                 </ul>
                     </div>
                 </div>
@@ -108,7 +109,7 @@
        <div class="container">
             <div class="row" id="commande-container">
             <a href="vue/Commande/Je_Commande.php">
-                <img class="img-responsive" id="commande-img" src="vue/app/img/Fond.jpg" alt="Je commande">
+                <img class="img-responsive" id="commande-img" src="app/img/Fond.jpg" alt="Je commande">
                 <a/>
         </div>
         <div class="row">
@@ -116,7 +117,7 @@
             <div class="col-md-2" style="display: inline; text-align: center;">
                 <a href="#">
                     <center>
-                        <img class="logo-service img-responsive" src="vue/app/img/Epicerie.png" alt="Logo">
+                        <img class="logo-service img-responsive" src="app/img/Epicerie.png" alt="Logo">
                     </center>
                 </a>
                 <p>Epicerie</p>
@@ -124,7 +125,7 @@
             <div class="col-md-2" style="display: inline; text-align: center;">
                 <a href="#">
                     <center>
-                        <img class="logo-service img-responsive" src="vue/app/img/Lavage_Auto.png" alt="Logo">
+                        <img class="logo-service img-responsive" src="app/img/Lavage_Auto.png" alt="Logo">
                     </center>
                 </a>
                 <p>Lavage auto</p>
@@ -132,7 +133,7 @@
             <div class="col-md-2" style="display: inline; text-align: center;">
                 <a href="#">
                     <center>
-                        <img class="logo-service img-responsive" src="vue/app/img/Cordonnerie.png" alt="Logo">
+                        <img class="logo-service img-responsive" src="app/img/Cordonnerie.png" alt="Logo">
                     </center>
                 </a>
                 <p>Cordonnerie</p>
@@ -140,7 +141,7 @@
             <div class="col-md-2" style="display: inline; text-align: center;">
                 <a href="#">
                     <center>
-                        <img class="logo-service img-responsive" src="vue/app/img/Cordonnerie.png" alt="Logo">
+                        <img class="logo-service img-responsive" src="app/img/Cordonnerie.png" alt="Logo">
                     </center>
                 </a>
                 <p>Pressing</p>
@@ -149,7 +150,7 @@
             <div class="col-md-2" style="display: inline; text-align: center;">
                 <a href="#">
                     <center>
-                        <img class="logo-service img-responsive" src="vue/app/img/Panier_Legumes.png" alt="Logo">
+                        <img class="logo-service img-responsive" src="app/img/Panier_Legumes.png" alt="Logo">
                     </center>
                 </a>
                 <p>Panier de légumes</p>
@@ -182,22 +183,22 @@
         <div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto; width: 500px; height: 600px; overflow: hidden;">
 
             <!-- Loading Screen -->
-            <div data-u="loading" style="position:absolute;top:0px;left:0px;background:url('../img/loading.gif') no-repeat 50% 50%; background-color: rgba(0, 0, 0, .7);"></div>
+            <div data-u="loading" style="position:absolute;top:0px;left:0px;background:url('app/img/loading.gif') no-repeat 50% 50%; background-color: rgba(0, 0, 0, .7);"></div>
 
             <!-- Slides Container -->
             <div u="slides" style="position: absolute; left: 0px; top: 0px; width: 500px; height: 600px;
             overflow: hidden;">
                 <div>
-                    <img u="image" src2="vue/app/img/home/01.png" />
+                    <img u="image" src2="app/img/home/01.png" />
                 </div>
                 <div>
-                    <img u="image" src2="vue/app/img/home/02.png" />
+                    <img u="image" src2="app/img/home/02.png" />
                 </div>
                 <div>
-                    <img u="image" src2="vue/app/img/home/03.jpg" />
+                    <img u="image" src2="app/img/home/03.jpg" />
                 </div>
                 <div>
-                    <img u="image" src2="vue/app/img/home/04.jpg" />
+                    <img u="image" src2="app/img/home/04.jpg" />
                 </div>
             </div>
 
@@ -224,7 +225,7 @@
                     /* size of bullet elment */
                     width: 16px;
                     height: 16px;
-                    background: url(vue/app/img/b05.png) no-repeat;
+                    background: url(app/img/b05.png) no-repeat;
                     overflow: hidden;
                     cursor: pointer;
                 }
@@ -275,7 +276,7 @@
                     width: 37px;
                     height: 37px;
                     cursor: pointer;
-                    background: url(vue/app/img/a11.png) no-repeat;
+                    background: url(app/img/a11.png) no-repeat;
                     overflow: hidden;
                 }
                 
@@ -349,14 +350,14 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="vue/app/bootstrap/js/jquery-1.9.1.min.js"></script>
-    <script src="vue/app/bootstrap/js/bootstrap.min.js"></script>
-    <script src="vue/app/bootstrap/js/docs.min.js"></script>
+    <script src="app/bootstrap/js/jquery-1.9.1.min.js"></script>
+    <script src="app/bootstrap/js/bootstrap.min.js"></script>
+    <script src="app/bootstrap/js/docs.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="vue/app/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="app/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
 
     <!-- jssor slider scripts-->
-    <script type="text/javascript" src="vue/app/bootstrap/js/jssor.slider.min.js"></script>
+    <script type="text/javascript" src="app/bootstrap/js/jssor.slider.min.js"></script>
     <script>
         jQuery(document).ready(function($) {
             var options = {

@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -112,7 +113,7 @@
 
                 <input type="text" name="user" placeholder="Nom d'utilisateur">
                 <input type="password" name="pass" placeholder="Mot de passe">
-                <button class="login-submit" onclick="location.href = 'Page-acceuil-admin.php?mes=bvn';">Valider</button>
+                <button class="login-submit" onclick="location.href = '../Accueil.php?mes=bvn';">Valider</button>
 
         </div>
     </div>

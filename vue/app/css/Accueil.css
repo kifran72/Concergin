@@ -7,7 +7,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 50%;*/
-    font-size: 1.4em;
+    font-size: 1.7em;
     width: 100%;
     margin-left: 0;
     margin-right: 0;
@@ -15,6 +15,10 @@ body {
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+}
+
+section {
+    display: inline-block;
 }
 
 .logo {
@@ -50,8 +54,6 @@ html, body {
 }
 
 
-/* Note: Try to remove the following lines to see the effect of CSS positioning */
-
 .affix {
     top: 0;
     width: 100%;
@@ -62,7 +64,6 @@ html, body {
 }
 
 
-/* Flip around the padding for proper display in narrow viewports */
 
 .navbar-wrapper>.container {
     padding-right: 0;
@@ -93,6 +94,25 @@ html, body {
     color: #FFFFFF;
 }
 
+.navbar-login
+{
+    width: 305px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.navbar-login-session
+{
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.icon-size
+{
+    font-size: 87px;
+}
+
 .logo-service {
     margin-top: 50px;
     display: inline;
@@ -109,7 +129,4 @@ html, body {
 .Confiance{
     
     margin: 0 auto;
-}
-section {
-    display: inline-block;
 }

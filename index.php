@@ -1,5 +1,7 @@
 <?php
 
-include "vue/Accueil.php";
+session_start();
+
+header("location: vue/Accueil.php");
 
 ?>
