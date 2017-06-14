@@ -99,7 +99,26 @@
 
         </div>
     </div>
+    
+    <?php 
 
+    switch ($_GET["mes"]) {
+            case "bvn":
+                echo '  <div class="alert alert-success">
+                            <strong>Bienvenue !</strong> Bonne recherche  
+                        </div>';
+                break;
+            
+            case "utok":
+                echo 'Utilisateur Créé';
+                break;
+            case "fail-ut":
+                echo 'Echec Création Utilisateur';
+                break;
+            case "ann":
+                echo 'Annulation';
+                break;
+        } ?>
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
@@ -180,13 +199,13 @@
         <!-- Jssor Slider Begin -->
 
         <!-- ================================================== -->
-        <div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto; width: 500px; height: 600px; overflow: hidden;">
+        <div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto; width: 700px; height: 500px; overflow: hidden;">
 
             <!-- Loading Screen -->
             <div data-u="loading" style="position:absolute;top:0px;left:0px;background:url('app/img/loading.gif') no-repeat 50% 50%; background-color: rgba(0, 0, 0, .7);"></div>
 
             <!-- Slides Container -->
-            <div u="slides" style="position: absolute; left: 0px; top: 0px; width: 500px; height: 600px;
+            <div u="slides" style="position: absolute; left: 0px; top: 0px; width: 700px; height: 500px;
             overflow: hidden;">
                 <div>
                     <img u="image" src2="app/img/home/01.png" />

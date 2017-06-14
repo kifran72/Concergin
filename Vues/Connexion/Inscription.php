@@ -104,7 +104,7 @@
 <div class="container-fluid">
         <div class="container">
         <div class="row">
-            <form action="Page-Ajout-ut.php" method="post" class="col-xs-12 col-md-4 col-md-offset-4">
+            <form action="../../Controleurs/Ajout_Utilisateur.php" method="post" class="col-xs-12 col-md-4 col-md-offset-4">
                 <h1>Nouvel Utilisateur</h1>
                 <FONT color="red">
                     <?php
@@ -173,7 +173,7 @@
     <!-- FOOTER -->
 
     <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
+       
         <p>&copy; Conciergin 2017 &middot; <a href="#">C.G.V.</a> &middot; </p>
     </footer>
     <!-- /.container -->

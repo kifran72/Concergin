@@ -3,4 +3,4 @@ session_start();
 
 session_destroy();
 
-header("location: ../Accueil.php");
+header("location: ../Accueil.php?mes");

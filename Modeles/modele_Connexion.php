@@ -35,7 +35,7 @@ class Connexion
 	}
 
 
-	public function ChoixRole($resultat)
+	public function ChoixRole($user, $pass)
 	{
 			getBDD();
 
