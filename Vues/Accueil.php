@@ -9,8 +9,7 @@
         <link href="app/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
         <link rel="stylesheet" href="app/css/Accueil.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -70,9 +69,9 @@
                                         <li role="separator" class="divider"></li>
                                         <li><a href="Clients/Decouvrir/L'équipe.html">L'équipe</a></li>
                                         <li role="separator" class="divider"></li>
-                                        <li><a href="#">Ou nous trouver ?</a></li>
+                                        <li><a href="Clients/Decouvrir/Ou_Nous_Trouver.html">Ou nous trouver ?</a></li>
                                         <li role="separator" class="divider"></li>
-                                        <li><a href="#">Revue de presse</a></li>
+                                        <li><a href="Clients/Decouvrir/Revue_Presse.html">Revue de presse</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
@@ -88,7 +87,14 @@
                         </nav>
                     </div>
                 </div>
-                
+                <div class="container">
+                    <center>
+                        <h1>Une conciergerie citoyenne verte et solidaire</h1>
+                    </center>
+                  <center>
+                        <p>Basée à Fontainebleau, Easyday est une entreprise de service de proximité qui offre aux salariés des entreprises et aux usagers de la gare de Fontainebleau-Avon, l’occasion de résoudre les tracasseries du quotidien, et les demandes relevant de la sphère privée.</p>
+                  </center>
+                </div>
                 <?php
                 switch ($_GET["mes"]) {
                 case "bvn":
