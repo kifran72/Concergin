@@ -1,10 +1,10 @@
 <?php
 	
 class Config {
-    const SERVERNAME="localhost";
-    const DBNAME="conciergin";
-    const USER="root";
-    const PASSWORD="toor";
+    const SERVERNAME="db686341738.db.1and1.com";
+    const DBNAME="db686341738";
+    const USER="dbo686341738";
+    const PASSWORD="SabrinaPW";
 }
 
 ?>
