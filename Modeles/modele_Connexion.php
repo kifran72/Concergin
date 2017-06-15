@@ -54,7 +54,7 @@ class Connexion
 	}
 
 	function getBDD() {
-    $bdd = new PDO('mysql:host=localhost;dbname=monblog;charset=utf8', 'root',
+    $bdd = new PDO('mysql:host=localhost;dbname=conciergin;charset=utf8', 'root',
             'toor', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
     return $bdd;
 }

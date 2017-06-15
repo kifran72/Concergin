@@ -24,7 +24,7 @@ header("location: Accueil.php?mes");
         <!-- NAVBAR
         ================================================== -->
         <div class="navbar-wrapper" style="BOX-SIZING: border-box;">
-            <div class="container">
+            <div class="container" style="height: 50px;">
                 <nav class="navbar navbar-inverse navbar-wrapper navbar-static-top" data-spy="affix" data-offset-top="1" role="navigation">
                     <div class="container">
                         <div class="navbar-header" >
@@ -49,8 +49,6 @@ header("location: Accueil.php?mes");
                                         <li><a href="#">Nos prestataires-partenaires</a></li>
                                         <li role="separator" class="divider"></li>
                                         <li><a href="La_Communauté/Confiance.html">Ils nous font confiance</a></li>
-                                        <li role="separator" class="divider"></li>
-                                        <li><a href="La_Communauté/Il_vous_raconte.html">Ils vous racontent</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">

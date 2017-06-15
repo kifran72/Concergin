@@ -20,7 +20,7 @@
         <!-- NAVBAR
         ================================================== -->
         <div class="navbar-wrapper" style="BOX-SIZING: border-box;">
-            <div class="container">
+            <div class="container" style="height: 50px;">
                 <nav class="navbar navbar-inverse navbar-wrapper navbar-static-top" data-spy="affix" data-offset-top="1" role="navigation">
                     <div class="container">
                         <div class="navbar-header" style="margin-right: 0px; margin-left: 0px;">
@@ -45,8 +45,6 @@
                                         <li><a href="#">Nos prestataires-partenaires</a></li>
                                         <li role="separator" class="divider"></li>
                                         <li><a href="Clients/La_Communauté/Confiance.html">Ils nous font confiance</a></li>
-                                        <li role="separator" class="divider"></li>
-                                        <li><a href="Clients/La_Communauté/Il_vous_raconte.html">Ils vous racontent</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
@@ -83,17 +81,20 @@
                                         
                                     </ul>
                                 </div>
-                            </div>
+                             </div>
                         </nav>
                     </div>
                 </div>
-                <div class="container">
+                <div class="container" style="height: 550px; color: white;">
                     <center>
-                        <h1>Une conciergerie citoyenne verte et solidaire</h1>
+                        <strong>
+                            <h1 style="margin-top: 250px;">Une conciergerie citoyenne verte et solidaire</h1>
+                        </strong>
                     </center>
                   <center>
-                        <p>Basée à Fontainebleau, Easyday est une entreprise de service de proximité qui offre aux salariés des entreprises et aux usagers de la gare de Fontainebleau-Avon, l’occasion de résoudre les tracasseries du quotidien, et les demandes relevant de la sphère privée.</p>
+                        <h3>Basée à Fontainebleau, Conciergin est une entreprise de service de proximité qui offre aux salariés des entreprises et aux usagers de la gare de Fontainebleau-Avon, l’occasion de résoudre les tracasseries du quotidien, et les demandes relevant de la sphère privée.</h3>
                   </center>
+                  <img src="app/img/Accueil.jpg" alt="logo" style="position: absolute; left: 0px; top: -300px; right: 0px; bottom: auto; width: 100% !important ; height: 100%; z-index: -1; margin-right: 0 auto;">
                 </div>
                 <?php
                 switch ($_GET["mes"]) {
@@ -243,6 +244,13 @@
                         <br><br><br><br><br>
                         <br><br><br><br><br>
                         
+                        <hr class="featurette-divider">
+                            <div class="container">
+                                
+                            </div>
+
+                          <br><br><br><br><br>
+                        <br><br><br><br><br>
                         <!-- /END THE FEATURETTES -->
                         <!-- FOOTER -->
                         <footer>

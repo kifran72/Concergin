@@ -44,8 +44,6 @@
                                         <li><a href="#">Nos prestataires et partenaires</a></li>
                                         <li role="separator" class="divider"></li>
                                         <li><a href="../Clients/La_Communauté/Confiance.html">Ils nous font confiance</a></li>
-                                        <li role="separator" class="divider"></li>
-                                        <li><a href="../Clients/La_Communauté/Il_vous_raconte.html">Ils vous racontent</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
