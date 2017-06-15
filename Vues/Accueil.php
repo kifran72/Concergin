@@ -85,7 +85,7 @@
                         </nav>
                     </div>
                 </div>
-                <div class="container" style="height: 550px; color: white;">
+                <div class="container" style="height: 570px; color: white;">
                     <center>
                         <strong>
                             <h1 style="margin-top: 250px;">Une conciergerie citoyenne verte et solidaire</h1>
@@ -175,16 +175,12 @@
                                     <p>Plus de services</p>
                                 </div>
                             </div>
-                        </div>
-                        
-                        
+                        </div>                                                
                         <hr class="featurette-divider">
                         <center style="margin-bottom: 50px;">
                         <h1>Les actualités de la semaine</h1>
                         </center>
-                        <!-- Use a container to wrap the slider, the purpose is to enable slider to always fit width of the wrapper while window resize -->
-                        
-                        
+                        <!-- Use a container to wrap the slider, the purpose is to enable slider to always fit width of the wrapper while window resize -->                       
                         <!-- Carousel
                         ================================================== -->
                         <div class="container">
@@ -203,8 +199,7 @@
                                         <div class="item active">
                                             <img src="app/img/home/01.jpg" alt="Chania" width="460" height="345">
                                             <div class="carousel-caption">
-                                               <!-- Some text -->
-                                                
+                                               <!-- Some text -->                                               
                                             </div>
                                         </div>
                                         <div class="item">
@@ -225,8 +220,7 @@
                                             <div class="carousel-caption">
                                              <!-- Some text -->
                                             </div>
-                                        </div>
-                                        
+                                        </div>                                       
                                     </div>
                                     <!-- Left and right controls -->
                                     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -243,20 +237,44 @@
 
                         <br><br><br><br><br>
                         <br><br><br><br><br>
+
                         
                         <hr class="featurette-divider">
+
                             <div class="container">
-                                
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="http://placehold.it/360x240" alt="try">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="http://placehold.it/360x240" alt="try">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="http://placehold.it/360x240" alt="try">
+                                    </div>
+                                </div>
+                                <img src="http://placehold.it/360x240" alt="try" style="margin-top: -750px;">
+                                <iframe width="700" height="500" src="https://www.youtube.com/embed/oxCCLx4ym5Y" frameborder="0" allowfullscreen style="margin-top: 50px; margin-left: 50px;"></iframe>
+                                <br>
+                                <img src="http://placehold.it/360x240" alt="try" style="margin-top: -215px;">
+
                             </div>
 
-                          <br><br><br><br><br>
+
                         <br><br><br><br><br>
+                        <br><br><br><br><br>
+                        
+                        
+
                         <!-- /END THE FEATURETTES -->
                         <!-- FOOTER -->
+
+
                         <footer>
                             <p class="pull-right"><a href="#">Back to top</a></p>
                             <p>&copy; Conciergin 2017 &middot; <a href="#">C.G.V.</a> &middot; </p>
                         </footer>
+
                         <!-- /.container -->
                         <!-- Bootstrap core JavaScript
                         ================================================== -->
