@@ -9,16 +9,16 @@ $pass = $_POST["pass"];
 
 $db = new PDO("mysql:host=" . Config::SERVERNAME . ";dbname=" . Config::DBNAME, Config::USER, Config::PASSWORD);
 
-$req = $db->prepare("SELECT Prenom_Personne, Nom_Personne, Role FROM Utilisateur WHERE ID_Personne=:id and Password_Personne=:mdp");
+$req = $db->prepare("SELECT Prenom_Personne, Nom_Personne, Role FROM utilisateur WHERE ID_Personne=:user and Password_Personne=:mdp");
 
-$req->bindParam(":id", $user);
+$req->bindParam(":user", $user);
 
 $req->execute();
 
 $resultat = $req->fetchAll();
 
 if (count($resultat) == 0) {
-    $req = $db->prepare("SELECT Prenom_Personne, Nom_Personne, Role FROM Utilisateur WHERE MAIL_Personne=:mail and Password_Personne=:mdp");
+    $req = $db->prepare("SELECT Prenom_Personne, Nom_Personne, Role FROM utilisateur WHERE MAIL_Personne=:mail and Password_Personne=:mdp");
 
     $req->bindParam(":mail", $user);
 

@@ -85,14 +85,15 @@
                         </nav>
                     </div>
                 </div>
-                <div class="container" style="height: 570px; color: white;">
+                <div class="container" style="height: 350px; color: white;">
                     <center>
                         <strong>
-                            <h1 style="margin-top: 250px;">Une conciergerie citoyenne verte et solidaire</h1>
+                            <h1 style="margin-top: 50px;">Une conciergerie citoyenne verte et solidaire</h1>
                         </strong>
                     </center>
+                    <br>
                   <center>
-                        <h3>Basée à Fontainebleau, Conciergin est une entreprise de service de proximité qui offre aux salariés des entreprises et aux usagers de la gare de Fontainebleau-Avon, l’occasion de résoudre les tracasseries du quotidien, et les demandes relevant de la sphère privée.</h3>
+                        <h4>Basée à Fontainebleau, Conciergin est une entreprise de service de proximité qui offre aux salariés des entreprises et aux usagers de la gare de Fontainebleau-Avon, l’occasion de résoudre les tracasseries du quotidien, et les demandes relevant de la sphère privée.</h4>
                   </center>
                   <img src="app/img/Accueil.jpg" alt="logo" style="position: absolute; left: 0px; top: -300px; right: 0px; bottom: auto; width: 100% !important ; height: 100%; z-index: -1; margin-right: 0 auto;">
                 </div>

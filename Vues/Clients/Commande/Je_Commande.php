@@ -78,9 +78,9 @@
                                     <li role="separator" class="divider"></li>
                                     <li><a href="../Decouvrir/L'équipe.html">L'équipe</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="#">Ou nous trouver ?</a></li>
+                                    <li><a href="../Decouvrir/Ou_Nous_Trouver.html">Ou nous trouver ?</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="#">Revue de presse</a></li>
+                                    <li><a href="../Decouvrir/Revue_Presse.html">Revue de presse</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">

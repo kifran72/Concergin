@@ -80,9 +80,9 @@
                                     <li role="separator" class="divider"></li>
                                     <li><a href="../Clients/Decouvrir/L'équipe.html">L'équipe</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="#">Ou nous trouver ?</a></li>
+                                    <li><a href="../Clients/Decouvrir/Ou_Nous_Trouver.html">Ou nous trouver ?</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="#">Revue de presse</a></li>
+                                    <li><a href="../Clients/Decouvrir/Revue_Presse.html">Revue de presse</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
@@ -103,7 +103,7 @@
         <div class="container">
         <div class="row">
             <form action="../../Controleurs/Ajout_Utilisateur.php" method="post" class="col-xs-12 col-md-4 col-md-offset-4">
-                <h1>Nouvel Utilisateur</h1>
+                <h1>Inscrivez-vous !</h1>
                 <FONT color="red">
                     <?php
                 switch ($_GET["er"]) {
@@ -157,6 +157,8 @@
                     <input type="password" name="MDP-conf" id="MDP-conf" class="form-control">
 
                 </div>
+              
+                
                
 
                 <br>
