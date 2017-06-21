@@ -1,4 +1,4 @@
-<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -43,7 +43,7 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">La communauté<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Nos prestataires et partenaires</a></li>
+                                    <li><a href="../Clients/La_Communauté/Prestataire.html">Nos prestataires et partenaires</a></li>
                                     <li role="separator" class="divider"></li>
                                     <li><a href="../Clients/La_Communauté/Confiance.html">Ils nous font confiance</a></li>
                                 </ul>

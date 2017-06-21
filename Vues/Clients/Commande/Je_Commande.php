@@ -1,3 +1,10 @@
+<?php
+
+if (!empty( $_SESSION)) {
+header("location: ../../Connexion/Connexion.php?mes");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -51,7 +58,7 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">La communauté<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Nos prestataires et partenaires</a></li>
+                                    <li><a href="../La_Communauté/Prestataire.html">Nos prestataires et partenaires</a></li>
                                     <li role="separator" class="divider"></li>
                                     <li><a href="../La_Communauté/Confiance.html">Ils nous font confiance</a></li>
                                 </ul>
@@ -97,7 +104,8 @@
         </div>
     </div>
 
-    <div class="container">
+    <form action="../../../Modeles/Validation_Commande.php" methode="post">
+        <div class="container">
         <div class="form-group">
             <h1>Passez votre commande</h1>
             <br><br><br><br><br><br>
@@ -105,8 +113,11 @@
             <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
         </div>
         
-        <button class="login-submit" onclick="location.href = '#';">Valider</button>
+        <center>
+            <button class="btn btn-lg btn-primary btn-block" style="width: 200px;" onclick="location.href = '#';">Valider</button>
+        </center>
     </div>
+    </form>
     <br><br><br><br><br><br><br>
 
     <!-- /END THE FEATURETTES -->

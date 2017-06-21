@@ -28,7 +28,6 @@
 
     <!-- NAVBAR
     ================================================== -->
-
     <div class="navbar-wrapper">
         <div class="container">
             <nav class="navbar navbar-inverse navbar-wrapper navbar-static-top" data-spy="affix" data-offset-top="1" role="navigation">
@@ -48,12 +47,11 @@
                         <ul class="nav navbar-nav">
                             <li>
                                 <a href="../Clients/Commande/Je_Commande.php">Je commande</a>
-
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">La communauté<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Nos prestataires-partenaires</a></li>
+                                    <li><a href="../Clients/La_Communauté/Prestataire.html">Nos prestataires-partenaires</a></li>
                                     <li role="separator" class="divider"></li>
                                     <li><a href="../Clients/La_Communauté/Confiance.html">Ils nous font confiance</a></li>
                                 </ul>
@@ -66,12 +64,10 @@
                                     <li><a href="../Clients/Nos_offres/Offre-Entreprise.html">Conciergerie d'entreprise</a></li>
                                     <li role="separator" class="divider"></li>
                                     <li><a href="../Clients/Nos_offres/Offre-Particulier.html">Conciergerie de quartier</a></li>
-
                                 </ul>
                             </li>
                             <li>
                                 <a href="#">Nos services</a>
-
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Découvrir<span class="caret"></span></a>
@@ -98,7 +94,6 @@
 
         </div>
     </div>
-
 <div class="container-fluid">
         <div class="container">
         <div class="row">
@@ -129,41 +124,35 @@
                 </FONT>
                 <div class="form-group">
                     <label for="Nom" class="control-label">Nom</label>
-
                     <input type="text" name="Nom" id="Nom" class="form-control">
-
                 </div>
                 <div class="form-group">
                     <label for="Prenom" class="control-label">Prenom</label>
-
                     <input type="text" name="Prenom" id="Prenom" class="form-control">
-
                 </div>
                 <div class="form-group">
                     <label for="Mail" class="control-label">Email</label>
-
                     <input type="text" name="Mail" id="Mail" class="form-control">
-
                 </div>
                 <div class="form-group">
                     <label for="MDP" class="control-label">Mot de passe</label>
-
                     <input type="password" name="MDP" id="MDP" class="form-control">
                 </div>
-
                 <div class="form-group">
                     <label for="MDP" class="control-label">Confirmer Mot de passe</label>
-
                     <input type="password" name="MDP-conf" id="MDP-conf" class="form-control">
-
                 </div>
-              
-                
-               
-
+              <div class="form-group">
+                    <label for="Addresse" class="control-label">Addresse</label>
+                    <input type="text" name="Adresse" id="Addresse" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="Code_Postale" class="control-label">Code postale</label>
+                    <input type="text" name="Code_Postale" id="Code_Postale" class="form-control">
+                </div>
                 <br>
                 <input type="submit" value="Confimer" class="btn btn-success">
-                <a href="../Acceuil-Employer.php?mes=ann" class="btn btn-info">annuler</a></td>
+                <a href="../Accueil_Employer.php?mes" class="btn btn-info">annuler</a></td>
             </form>
             </div>
             </div>
@@ -171,11 +160,6 @@
 <br><br>
     <!-- /END THE FEATURETTES -->
     <!-- FOOTER -->
-
-    <footer>
-       
-        <p>&copy; Conciergin 2017 &middot; <a href="#">C.G.V.</a> &middot; </p>
-    </footer>
     <!-- /.container -->
 
     <!-- Bootstrap core JavaScript
