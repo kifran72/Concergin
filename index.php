@@ -1,5 +1,5 @@
 <?php
-ob_start();
+    ob_start();
     session_start();
     
 
@@ -10,6 +10,12 @@ ob_start();
             case 'Connexion':
                 $content_for_layout = 'Vues/Connexion/Connexion.php';
                 break;
+            case 'Inscription':
+                $content_for_layout = 'Vues/Connexion/Inscription.php';
+                break;    
+            case 'Deconnexion':
+                $content_for_layout = 'Vues/Connexion/Deconnexion.php';
+                break;
             case 'verifco':
                 $content_for_layout = 'Vues/Connexion/Verif_connexion.php';
                 break;
@@ -19,10 +25,40 @@ ob_start();
             case 'Commande':
                 $content_for_layout = 'Vues/Clients/Commande/Je_Commande.php';
                 break;
+
+                //###########//
+
+            case 'Equipe':
+                $content_for_layout = 'Vues/Clients/Decouvrir/Equipe.php';
+                break;    
+            case 'Trouver':
+                $content_for_layout = 'Vues/Clients/Decouvrir/Trouver.php';
+                break;
+            case 'Quisommenous':
+                $content_for_layout = 'Vues/Clients/Decouvrir/Quisommenous.php';
+                break;
+            case 'RevuePresse':
+                $content_for_layout = 'Vues/Clients/Decouvrir/Revue_Presse.php';
+                break;
+
+                //###########//
+
+            case 'Confiance':
+                $content_for_layout = 'Vues/Clients/La_Communaute/Confiance.php';
+                break;        
             case 'Prestataires':
                 $content_for_layout = 'Vues/Clients/La_Communaute/Prestataire.php';
                 break;
 
+                //###########//
+
+            case 'Entreprise':
+                $content_for_layout = 'Vues/Clients/Nos_offres/Offre-Entreprise.php';
+                break;        
+            case 'Particulier':
+                $content_for_layout = 'Vues/Clients/Nos_offres/Offre-Particulier.php';
+                break;
+              
                 //###########//
 
             default:
@@ -52,6 +88,4 @@ ob_start();
 
     }
 
-    var_dump($_POST);
-    var_dump($_SESSION);
 ?>

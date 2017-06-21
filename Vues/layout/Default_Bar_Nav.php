@@ -36,14 +36,14 @@
                         <div id="navbar" class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
                                 <li>
-                                    <a href="localhost:8080/Conciergin/index.php?page=Commande">Je commande</a>
+                                    <a href="index.php?page=Commande">Je commande</a>
                                 </li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">La communauté<span class="caret"></span></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="index.php?page=Prestataires">Nos prestataires-partenaires</a></li>
                                         <li role="separator" class="divider"></li>
-                                        <li><a href="Vues/Clients/La_Communauté/Confiance.html">Ils nous font confiance</a></li>
+                                        <li><a href="index.php?page=Confiance">Ils nous font confiance</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
@@ -51,9 +51,9 @@
                                     <ul class="dropdown-menu">
                                         <li><a href="#">Conciergerie volante</a></li>
                                         <li role="separator" class="divider"></li>
-                                        <li><a href="Vues/Clients/Nos_offres/Offre-Entreprise.html">Conciergerie d'entreprise</a></li>
+                                        <li><a href="index.php?page=Entreprise">Conciergerie d'entreprise</a></li>
                                         <li role="separator" class="divider"></li>
-                                        <li><a href="Vues/Clients/Nos_offres/Offre-Particulier.html">Conciergerie de quartier</a></li>
+                                        <li><a href="index.php?page=Particulier">Conciergerie de quartier</a></li>
                                     </ul>
                                 </li>
                                 <li>
@@ -62,19 +62,19 @@
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Découvrir<span class="caret"></span></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="Vues/Clients/Decouvrir/Qui_somme_nous.html">Qui sommes nous !</a></li>
+                                        <li><a href="index.php?page=Quisommenous">Qui sommes nous !</a></li>
                                         <li role="separator" class="divider"></li>
-                                        <li><a href="Vues/Clients/Decouvrir/L'équipe.html">L'équipe</a></li>
+                                        <li><a href="index.php?page=Equipe">L'équipe</a></li>
                                         <li role="separator" class="divider"></li>
-                                        <li><a href="Vues/Clients/Decouvrir/Ou_Nous_Trouver.html">Ou nous trouver ?</a></li>
+                                        <li><a href="index.php?page=Trouver">Ou nous trouver ?</a></li>
                                         <li role="separator" class="divider"></li>
-                                        <li><a href="Vues/Clients/Decouvrir/Revue_Presse.html">Revue de presse</a></li>
+                                        <li><a href="index.php?page=RevuePresse">Revue de presse</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mon espace<span class="caret"></span></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="Vues/Connexion/Inscription.php?er">Inscription</a></li>
+                                        <li><a href="index.php?page=Inscription">Inscription</a></li>
                                         <li role="separator" class="divider"></li>
                                         <li><a href="index.php?page=Connexion">Connexion</a></li>
                                     </ul>
