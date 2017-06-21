@@ -94,7 +94,7 @@
                                                         </div>
                                                         <div class="col-lg-8">
                                                             <p class="text-left"><?php  echo $_SESSION["Nom"]." " . $_SESSION["Prenom"];?></p>
-                                                            <p class="text-left small"><?php echo $_SESSION["Mail"]; ?></p>
+                                                            <p class="text-left small"><?php echo $_SESSION["mail"]; ?></p>
                                                             <p class="text-left">
                                                                 <a href="#" class="btn btn-primary btn-block btn-sm">Actualisé mes informations</a>
                                                             </p>
@@ -108,7 +108,7 @@
                                                     <div class="row">
                                                         <div class="col-lg-12">
                                                             <p>
-                                                                <a href="Connexion/Deconnexion.php" class="btn btn-danger btn-block">Déconnexion</a>
+                                                                <a href="index.php?page=Deconnexion" class="btn btn-danger btn-block">Déconnexion</a>
                                                             </p>
                                                         </div>
                                                     </div>
