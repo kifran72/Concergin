@@ -1,6 +1,6 @@
 
 
-<div class="container" style="margin-bottom: 30px;">
+<div class="container" style="margin-bottom: 30px; margin-top: 80px;">
     <h1>En individuel</h1>
     <img src="Vues/app/img/OffreParticulier1.png" alt="pl">
     <img src="Vues/app/img/OffreParticulier2.png" alt="pL">

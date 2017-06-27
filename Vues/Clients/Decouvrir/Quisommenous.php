@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" style="margin-top: 70px;">
     <h1>Qui sommes-nous !</h1>
     <br>
     <img src="Vues/app/img/qui_somme_nous1.png" alt="1">
@@ -27,7 +27,7 @@ Le modèle d’organisation d’Easyday est un «circuit court» de distribution
     <!-- FOOTER -->
 
 <footer>
-    <p class="pull-right"><a href="#">Back to top</a></p>
+    <p class="pull-right"><a href="#">Revenir en haut</a></p>
     <p>&copy; Conciergin 2017 &middot; <a href="#">C.G.V.</a> &middot; </p>
 </footer>
 <!-- /.container -->

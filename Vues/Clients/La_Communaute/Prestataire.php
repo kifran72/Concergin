@@ -1,19 +1,25 @@
-<div class="container">
+<style>
+.top{
+    margin-top: 50px;
+}
+</style>
+
+
+<div class="container top">
     <center>
         <h1>Les Prestataires Conciergin, aujourd’hui et demain</h1>
     </center>
-    <br>
+    <br><br><br>
     <p>Basée dans le Sud Seine et Marne, et engagée dans le développement du territoire, Conciergin fait appel à des entrepreneurs et producteurs locaux.</p>
     <p>L’intérêt porté à cet égard a pour motivation de promouvoir le travail et de tendre vers une tendance locavore.</p>
     <p>Nos producteurs alimentaires font exclusivement du local, nous sommes en lien direct avec eux, sans passer par des intermédiaires.</p>
-
-    <br><br>
-
+    <br>
     <h2>La relation humaine et sociale est toujours mise en avant. </h2>
+        <br><br>
     <p>Que ce soit pour de la bière, des légumes, de la viande, nos producteurs sélectionnent avec soin tous leurs produits et ne nous proposent que le meilleur. Nous avons également des producteurs locaux certifiés par le Label Agriculture Biologique.</p>
     <p>En ce qui concerne nos prestataires de services, chacun d’eux représentent une force dans le bon fonctionnement de la conciergerie. Jamais nous ne mettons en compétition nos prestataires, ils sont pour nous uniques et exclusifs. </p>
 
-    <br><br><br><br>
+    <br><br>
 
     <center>
         <img src="Vues/app/img/Prestataire/Nature.jpg" alt="Nature">
@@ -155,7 +161,7 @@
 </div>
 <!-- FOOTER -->
 <footer>
-    <p class="pull-right"><a href="#">Back to top</a></p>
+    <p class="pull-right"><a href="#">Revenir en haut</a></p>
     <p>&copy; Conciergin 2017 &middot; <a href="#">C.G.V.</a> &middot; </p>
 </footer>
 <!-- /.container -->

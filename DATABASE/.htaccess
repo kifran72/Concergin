@@ -1,0 +1,4 @@
+AuthName "Page d'administration protégée"
+AuthType Basic
+AuthUserFile "/homepages/37/d647112628/htdocs/3/.htpasswd"
+Require valid-user

@@ -1,4 +1,4 @@
-<div class="container">    
+<div class="container" style="margin-top: 80px;">    
     <center>
     <strong>
     <h1>Il vous raconte</h1>
@@ -28,7 +28,7 @@
 <!-- /END THE FEATURETTES -->
 <!-- FOOTER -->
 <footer>
-    <p class="pull-right"><a href="#">Back to top</a></p>
+    <p class="pull-right"><a href="#">Revenir en haut</a></p>
     <p>&copy; Conciergin 2017 &middot; <a href="#">C.G.V.</a> &middot; </p>
 </footer>
 <!-- /.container -->

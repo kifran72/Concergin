@@ -1,4 +1,4 @@
-    <div class="container">
+    <div class="container" style="margin-top: 80px;" >
         <h1 style="margin-bottom: 100px;">L'EQUIPE/ L'ASSOCIATION</h1>
         
         <div class="row">
@@ -27,7 +27,7 @@
     <!-- FOOTER -->
 
     <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p class="pull-right"><a href="#">Revenir en haut</a></p>
         <p>&copy; Conciergin 2017 &middot; <a href="#">C.G.V.</a> &middot; </p>
     </footer>
     <!-- /.container -->

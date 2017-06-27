@@ -1,4 +1,4 @@
-<div class="container" style="margin-bottom: 30px;">
+<div class="container" style="margin-bottom: 30px; margin-top: 80px;">
     <img src="Vues/app/img/OffreEntreprises.png" alt="RH">
     <h1>Notre fonctionnement</h1>
     <p>1/ Une entreprise décide d’ouvrir une conciergerie sur son lieu d’implantation pour ses salariés mais également pour ses besoins.</p>
@@ -21,7 +21,7 @@
     <img src="Vues/app/img/OffreEntreprises2.png" alt="Rh">
 </div>
 <footer>
-    <p class="pull-right"><a href="#">Back to top</a></p>
+    <p class="pull-right"><a href="#">Revenir en haut</a></p>
     <p>&copy; Conciergin 2017 &middot; <a href="#">C.G.V.</a> &middot; </p>
 </footer>
 
