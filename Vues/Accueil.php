@@ -8,7 +8,7 @@ hr{
 </style>
 
 
-<div class="container" style="margin-top: 100px; color: white !important; font-size: 1.7em;">
+<div class="container" style="margin-top: 3%; color: white !important; font-size: 1.7em;">
     <center>
         <strong>
         <p>
@@ -16,13 +16,13 @@ hr{
         </p>
     </strong>
     </center>
-    <img class="img-fluid" src="Vues/app/img/Accueil.jpg" alt="logo" style="position: absolute; left: 0px; top: 0px; right: 0px; z-index: -1; width: 100%; height: 400px; ">
+    <img class="img-fluid" src="Vues/app/img/Accueil.jpg" alt="logo" style="position: absolute; left: 0px; top: 0px; right: 0px; z-index: -1; width: 100%; height: 450px; ">
 </div>
 <div class="container">
     <br><br>
     <center>
         <strong>
-    <h1 style="margin-top: 20%;">Une conciergerie citoyenne verte et solidaire</h1>
+    <h1 style="margin-top: 25%;">Une conciergerie citoyenne verte et solidaire</h1>
     </strong>
     </center>
     <br>
@@ -34,28 +34,28 @@ hr{
     </center>
 </div>
 <?php
-if(isset($_GET["mes"]) && !empty($_GET)){
-switch ($_GET["mes"]) {
-case "bvn":
-echo '  <div class="alert alert-success">
-    <strong>Bienvenue !</strong> Bonne recherche
-</div>';
-break;
-case "utok":
-echo 'Utilisateur Créé';
-break;
-case "fail-ut":
-echo 'Echec Création Utilisateur';
-break;
-case "ann":
-echo 'Annulation';
-break;
-}
-}
+    if(isset($_GET["mes"]) && !empty($_GET)){
+    switch ($_GET["mes"]) {
+    case "bvn":
+        echo '  <div class="alert alert-success">
+                    <strong>Bienvenue !</strong> Bonne recherche
+                </div>';
+        break;
+    case "utok":
+        echo 'Utilisateur Créé';
+        break;
+    case "fail-ut":
+        echo 'Echec Création Utilisateur';
+        break;
+    case "ann":
+        echo 'Annulation';
+        break;
+    }
+    }
 ?>
     <br><br><br>
     
-    <hr class="featurette-divider">
+    <hr class="featurette-divider" style=" margin-bottom: 25%;">
     <!-- Marketing messaging and featurettes
 ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
@@ -64,6 +64,11 @@ break;
             <div class="col-md-6">
                 <div class="row">
                     <div class="row">
+                       <div class="row" id="commande-container" style="position: relative; top: -50px;">
+                        <a href="index.php?page=Commande" style="width: 10%;">
+                            <img class="logo-service" id="commande-img" src="Vues/app/img/Fond.jpg" alt="Je commande">
+                            <a/>
+                        </div>
                         <div class="col-md-4" style="display: inline; text-align: center;">
                             <a href="#">
                                 <center>
@@ -116,11 +121,6 @@ break;
                             </a>
                             <p>Plus de services</p>
                         </div>
-                    </div>
-                    <div class="row" id="commande-container" style="position: relative; top: -50px;">
-                        <a href="index.php?page=Commande" style="width: 10%;">
-                            <img class="logo-service" id="commande-img" src="Vues/app/img/Fond.jpg" alt="Je commande">
-                            <a/>
                     </div>
                 </div>
             </div>
