@@ -1,12 +1,8 @@
 
 <style>
-.vignet {
-    background-color: #f7f7f7;
-    height: 280px;
-    
-}
+
 hr{
-    width: 550px;
+    width: 750px;
 }
 
 </style>
@@ -26,7 +22,7 @@ hr{
     <br><br>
     <center>
         <strong>
-    <h1 style="margin-top: 25%;">Une conciergerie citoyenne verte et solidaire</h1>
+    <h1 style="margin-top: 20%;">Une conciergerie citoyenne verte et solidaire</h1>
     </strong>
     </center>
     <br>
@@ -63,7 +59,7 @@ break;
     <!-- Marketing messaging and featurettes
 ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
-    <div class="container-fluid vignet" style="margin-top: 100px;">
+    <div class="container vignet" style="margin-top: 100px;">
         <div class="row">
             <div class="col-md-6">
                 <div class="row">
